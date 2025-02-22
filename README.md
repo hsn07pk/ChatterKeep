@@ -60,29 +60,6 @@ CREATE TABLE conversation_history (
 );
 ```
 
-## Directory Structure
-
-```
-ChatterKeep/
-├── src/
-│   ├── __init__.py
-│   ├── app.py
-│   ├── session_manager.py
-│   ├── db_handler.py
-│   └── utils.py
-├── tests/
-│   ├── __init__.py
-│   ├── test_app.py
-│   ├── test_session_manager.py
-│   └── test_db_handler.py
-├── docker/
-│   └── Dockerfile
-├── docs/
-│   ├── API.md
-│   └── DEPLOYMENT.md
-├── requirements.txt
-└── README.md
-```
 
 ## State Machine Design
 ```
